@@ -73,4 +73,45 @@ img {
 }
 
 
-/* RESPONSIVE */
+/* RESPONSIVE 420px 820px 1020px*/
+/* da 0 a 1020px */
+@media screen and (max-width: 1020px) {
+  .row {
+    width: 100%;
+  }
+
+  img {
+    height: 20vw;
+  }
+}
+
+/* da 0 a 820px */
+@media screen and (max-width:820px) {
+  #steps .row>.left, #steps .row>.central {
+    width: 50%;
+  }
+
+  #steps .row>.right {
+    width: 100%;
+    margin-top: 50px;
+  }
+}
+
+/* da 0 a 420px */
+@media screen and (max-width:420px) {
+  #steps .row>.left, #steps .row>.central, #steps .row>.right {
+    width: 100%;
+  }
+
+  #steps .row>.central, #steps .row>.right {
+    margin-top: 50px;
+  }
+
+  #lezioni .row>.left, #lezioni .row>.right {
+    width: 100%;
+  }
+
+  #lezioni .row>.right {
+    margin-top: 50px;
+  }
+}
