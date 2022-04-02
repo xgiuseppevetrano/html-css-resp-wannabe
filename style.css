@@ -83,6 +83,10 @@ img {
   img {
     height: 20vw;
   }
+
+  #why .row img {
+    padding: 5%;
+  }  
 }
 
 /* da 0 a 820px */
